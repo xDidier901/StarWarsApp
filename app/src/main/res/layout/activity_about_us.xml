@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.didiervaldez.starwarsapp.AboutUs">
+
+    <ImageView
+        android:id="@+id/linkedInImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/profile_picture" />
+
+    <TextView
+        android:id="@+id/my_name"
+        style="@style/Base.TextAppearance.AppCompat.Body2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linkedInImage"
+        android:layout_centerHorizontal="true"
+        android:text="@string/my_name"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        android:id="@+id/university"
+        style="@style/Base.TextAppearance.AppCompat.Body2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/my_name"
+        android:text="@string/university_name" />
+
+    <TextView
+        android:id="@+id/occupation"
+        style="@style/Base.TextAppearance.AppCompat.Body2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/university"
+        android:text="@string/my_occupation" />
+
+    <TextView
+        android:id="@+id/project_decription"
+        style="@style/Base.TextAppearance.AppCompat.Body2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/occupation"
+        android:text="@string/project_description" />
+
+    <TextView
+        android:id="@+id/professor"
+        style="@style/Base.TextAppearance.AppCompat.Body2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/project_decription"
+        android:text="@string/professor_description" />
+
+</RelativeLayout>
