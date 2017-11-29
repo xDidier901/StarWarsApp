@@ -1,10 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/didiervaldez/Documents/ProyectoFinalKotlin/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+            "outputFile": "/home/luanmega/proyectoFinalAndroid/StarWarsApp-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/didiervaldez/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/db45cd931cadc16ca7648599c4a38eec/res/values-v16/values-v16.xml",
+                    "source": "/home/luanmega/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/bdb77563ee19f55b01e6a053354be922/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "/home/luanmega/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/7a38484cc6b80a971f1aeaaecbd5b4ff/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -20,16 +30,6 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
-                    }
-                },
-                {
-                    "source": "/Users/didiervaldez/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/a7966f1e58cd4c2602053cb7d26991a3/res/values-v16/values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
                     }
                 }
             ]

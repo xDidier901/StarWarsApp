@@ -134,6 +134,7 @@ class Home : AppCompatActivity() {
             intent.putExtra("Titulo", "${itemOnList.Titulo.toString()}")
             intent.putExtra("Fecha", "${itemOnList.Fecha.toString()}")
             intent.putExtra("uuid", "${itemOnList.uuid.toString()}")
+            intent.putExtra("User", user!!.uid.toString())
             startActivity(intent)
         }
         return super.onContextItemSelected(item)
@@ -157,9 +158,9 @@ class Home : AppCompatActivity() {
             )
             //insertar lista en firebase
             availableTODOs.forEach {
-                val key = firebaseData.child("TODOs").push().key
+                val key = firebaseData.child(user!!.uid.toString()).child("TODOs").push().key
                 it.uuid = key
-                firebaseData.child("TODOs").child(key).setValue(it)
+                firebaseData.child(user!!.uid.toString()).child("TODOs").child(key).setValue(it)
                 toast("Evento añadido con exito")
                 listaToDo()
             }
@@ -187,14 +188,14 @@ class Home : AppCompatActivity() {
                 println("loadPost:onCancelled ${databaseError.toException()}")
             }
         }
-        mDatabase.child("TODOs").addValueEventListener(menuListener)
+        mDatabase.child(user!!.uid).child("TODOs").addValueEventListener(menuListener)
     }
 
     fun getViewLista(list: ArrayList<ToDo>){
-        var list_books: ListView = findViewById<ListView>(R.id.listToDOs) as ListView
+        var listItems: ListView = findViewById<ListView>(R.id.listToDOs) as ListView
         var adapter: ListAdapter? = null
         adapter = ListAdapter(list, this)
-        list_books.adapter = adapter
+        listItems.adapter = adapter
     }
 
 }

@@ -4,7 +4,7 @@ import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.view.*
 import com.google.firebase.database.*
-import kotlinx.android.synthetic.main.activity_todo.*
+//import kotlinx.android.synthetic.main.activity_todo.*
 import android.view.ContextMenu.ContextMenuInfo
 import android.view.MenuInflater
 import android.widget.AdapterView.AdapterContextMenuInfo

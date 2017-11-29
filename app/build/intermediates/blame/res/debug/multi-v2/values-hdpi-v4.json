@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/didiervaldez/Documents/ProyectoFinalKotlin/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+            "outputFile": "/home/luanmega/proyectoFinalAndroid/StarWarsApp-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "/Users/didiervaldez/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/db45cd931cadc16ca7648599c4a38eec/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "source": "/home/luanmega/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/7a38484cc6b80a971f1aeaaecbd5b4ff/res/values-hdpi-v4/values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

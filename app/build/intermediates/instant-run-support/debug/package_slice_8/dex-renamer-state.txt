@@ -1,4 +1,4 @@
-#Tue Nov 28 15:40:37 MST 2017
-base.0=/Users/didiervaldez/Documents/ProyectoFinalKotlin/app/build/intermediates/transforms/dexMerger/debug/66
+#Tue Nov 28 20:49:24 MST 2017
+base.0=/home/luanmega/proyectoFinalAndroid/StarWarsApp-master/app/build/intermediates/transforms/dexMerger/debug/9
 path.0=classes.dex
 renamed.0=classes.dex
