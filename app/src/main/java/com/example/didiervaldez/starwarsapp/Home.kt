@@ -143,7 +143,7 @@ class Home : AppCompatActivity() {
     private fun borrar(uuid: String) {
 
         var firebaseData = FirebaseDatabase.getInstance().reference
-        val item = firebaseData.child("starwarsapp-6c83e").child("TODOs").child(uuid)
+        val item = firebaseData.child("starwarsapp-6c83e").child(user!!.uid.toString()).child("TODOs").child(uuid)
         item.removeValue()
         toast("Item borrado")
         listaToDo()
