@@ -5,6 +5,7 @@ import android.media.MediaPlayer
 import android.net.Uri
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import android.view.View
 import android.view.animation.DecelerateInterpolator
 import android.widget.Toast
 import com.google.android.gms.auth.api.signin.GoogleSignIn
@@ -28,6 +29,7 @@ class MainActivity : AppCompatActivity() {
     private var sound: Boolean = true
     private var songTime: Int = 0
     private var videoTime: Int = 0
+    private var userExists : Boolean = false
 
 
     //GoogleSignIn
@@ -39,14 +41,20 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
         soundButton.setImageResource(R.drawable.sound)
         initiateBackground()
         setSoundListener()
 
         startGoogleConfig()
         setGoogleListener()
+        setForgetUserListener()
 
+    }
+
+    private fun setForgetUserListener(){
+        forgetUserButton.setOnClickListener({
+            revokeAccess()
+        })
     }
 
     private fun setGoogleListener() {
@@ -167,18 +175,28 @@ class MainActivity : AppCompatActivity() {
         // Google revoke access
         mGoogleSignInClient!!.revokeAccess().addOnCompleteListener(this
         ) { updateUI(null) }
+        toast(getString(R.string.user_forgotten))
+        forgetUserButton.visibility = View.GONE
     }
 
     private fun updateUI(user: FirebaseUser?) {
         if (user != null) {
             toast(R.string.login_succesful)
+            userExists=true
             startActivity<Home>()
+        } else {
+            if (userExists){
+                forgetUserButton.visibility = View.VISIBLE
+            }
         }
     }
 
     override fun onStart() {
         super.onStart()
         val currentUser = mAuth!!.currentUser
+        if (currentUser != null) {
+            userExists = true
+        }
         updateUI(currentUser)
     }
 

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/luanmega/proyectoFinalAndroid/StarWarsApp-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "/Users/didiervaldez/Documents/ProyectoFinalKotlin/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "/home/luanmega/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.0.aar/6efd21ab12c3889cb58ca651cff7f4d2/res/values-watch-v20/values.xml",
+                    "source": "/Users/didiervaldez/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.2.aar/5463a517b62098b514537a67c9849eef/res/values-watch-v20/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11",
                         "startColumns": "0,0,0,0,0,0,0,0",

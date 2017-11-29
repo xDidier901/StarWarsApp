@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/luanmega/proyectoFinalAndroid/StarWarsApp-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+            "outputFile": "/Users/didiervaldez/Documents/ProyectoFinalKotlin/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/home/luanmega/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/5ec93b5fc50166eef1510e83029fd125/res/values-v16/values-v16.xml",
+                    "source": "/Users/didiervaldez/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/db45cd931cadc16ca7648599c4a38eec/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/home/luanmega/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/8fedc03f3eb4067101abf48cbdc808c3/res/values-v16/values-v16.xml",
+                    "source": "/Users/didiervaldez/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/a7966f1e58cd4c2602053cb7d26991a3/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

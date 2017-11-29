@@ -29,12 +29,12 @@ dependencies {
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
 
     //Firebase Authentication
-    implementation 'com.google.firebase:firebase-auth:11.6.0'
-    compile 'com.google.firebase:firebase-core:11.6.0'
-    compile 'com.google.firebase:firebase-database:11.6.0'
+    implementation 'com.google.firebase:firebase-auth:11.6.2'
+    compile 'com.google.firebase:firebase-core:11.6.2'
+    compile 'com.google.firebase:firebase-database:11.6.2'
 
     //Google
-    implementation 'com.google.android.gms:play-services-auth:11.6.0'
+    implementation 'com.google.android.gms:play-services-auth:11.6.2'
 
     //GSON
     implementation 'com.google.code.gson:gson:2.8.2'

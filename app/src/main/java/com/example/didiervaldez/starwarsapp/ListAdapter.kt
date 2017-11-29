@@ -8,7 +8,7 @@ import android.widget.TextView
 /**
  * Created by luanmega on 27/11/17.
  */
-data class ListAdapter(var todoList:List<ToDo>, var activity: TODOActivity) : BaseAdapter(){
+data class ListAdapter(var todoList:List<ToDo>, var activity: Home) : BaseAdapter(){
 
     override fun getItem(position: Int): Any {
         return todoList.get(position)

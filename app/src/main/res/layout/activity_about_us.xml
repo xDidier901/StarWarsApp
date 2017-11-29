@@ -6,30 +6,44 @@
     android:layout_height="match_parent"
     tools:context="com.example.didiervaldez.starwarsapp.AboutUs">
 
-    <ImageView
-        android:id="@+id/linkedInImage"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:layout_centerHorizontal="true"
-        android:src="@mipmap/profile_picture" />
-
     <TextView
-        android:id="@+id/my_name"
+        android:id="@+id/madeBy"
         style="@style/Base.TextAppearance.AppCompat.Body2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/linkedInImage"
         android:layout_centerHorizontal="true"
-        android:text="@string/my_name"
+        android:text="@string/made_by"
         android:layout_marginBottom="20dp"
         />
+
+    <TextView
+    android:id="@+id/name1"
+    style="@style/Base.TextAppearance.AppCompat.Body2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:text="@string/owner1"
+        android:layout_below="@id/madeBy"
+    android:layout_marginBottom="20dp"
+    />
+
+    <TextView
+    android:id="@+id/name2"
+    style="@style/Base.TextAppearance.AppCompat.Body2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:text="@string/owner2"
+        android:layout_below="@id/name1"
+    android:layout_marginBottom="20dp"
+    />
 
     <TextView
         android:id="@+id/university"
         style="@style/Base.TextAppearance.AppCompat.Body2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/my_name"
+        android:layout_below="@+id/name2"
         android:text="@string/university_name" />
 
     <TextView

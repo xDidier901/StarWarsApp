@@ -8,13 +8,18 @@
     <string name="menu_about_us">Acerca de</string>
     <string name="go_back">Atrás</string>
     <string name="university_name">Universidad Estatal de Sonora</string>
-    <string name="my_occupation">Estudiante de Ingeniería de Software</string>
+    <string name="my_occupation">Estudiantes de Ingeniería de Software</string>
     <string name="project_description">Proyecto realizado para la materia de Programación de Dispositivos Móviles</string>
     <string name="professor_description">Materia impartida por: Julián Flores Figueroa</string>
-    <string name="my_name">Ramón Didier Valdez Yocupicio</string>
+    <string name="owner1">Ramón Didier Valdez Yocupicio</string>
+    <string name="owner2">Luis Antonio Medina Galvez</string>
     <string name="linkedin_url_image">https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAsaAAAAJDU0ODU1NjA2LWRjNTctNGMwMS1iY2MxLTUxZjA4NDY0N2ZlZg.jpg</string>
 
     <string name="title_activity_fullscreen">FullscreenActivity</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="made_by">Aplicación hecha por:</string>
+    <string name="forget_user">Olvidar Usuario</string>
+    <string name="user_forgotten">Usuario olvidado</string>
+    <string name="your_data">Tus datos</string>
 </resources>
